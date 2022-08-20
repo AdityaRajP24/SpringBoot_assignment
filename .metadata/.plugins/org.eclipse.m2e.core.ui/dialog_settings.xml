@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Aditya Raj Patel\git\new_rep2\ora_spring_training\springboot"/>
+			<item value="C:\Users\Aditya Raj Patel\git\new_rep2\ora_spring_training\springboot\01_bankapp"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="02_bankapp"/>
+			<item value="01_bankapp"/>
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,8 @@
+package com.productapp.repository;
+
+
+	@Repository
+	public interface ProductDao extends JpaRepository<Product, Integer>{
+		public Product findByName(String name);
+	}
+}

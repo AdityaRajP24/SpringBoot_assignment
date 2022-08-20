@@ -1,0 +1,12 @@
+package com.productapp.dto;
+
+import java.time.LocalDateTime;
+
+public class ErrorDetails {
+	private String message;
+	private String details;
+	
+	private String name;
+	private LocalDateTime date;
+	
+}

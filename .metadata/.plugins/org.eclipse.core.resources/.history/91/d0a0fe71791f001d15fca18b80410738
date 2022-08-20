@@ -1,0 +1,26 @@
+package com.productapp.api;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.productapp.repository.Product;
+import com.productapp.service.ProductService;
+
+public class ProductApi {
+	private ProductService productService;
+
+	@Autowired
+	public ProductApi(ProductService productService) {
+		this.productService = productService;
+	}
+	
+	//--------get all products----------
+		@GetMapping(path = "products")
+		public List<Product>findAll(){
+			return productService.findAll();
+		}
+
+
+}
